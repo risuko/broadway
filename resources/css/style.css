@@ -9,6 +9,14 @@ h1{
   font-weight: bold;
 }
 
+#main-header img{
+   background-image: url(C:\broadway\resources\identify.svg);
+   image-orientation: 0;
+   image-resolution: from-image;
+
+
+}
+
 h2{
   font-size: 32px;
   font-weight: bold;
@@ -23,6 +31,7 @@ h3{
   font-size: 32px;
   font-weight: bold;
   color: white;
+  background-image: url(C:\broadway\resources\the-flatiron-building.png);
 }
 
 p{
