@@ -1,5 +1,6 @@
 html{
   align-content: center;
+  text-align: center;
   font-family: Helvetica;
 }
 
@@ -9,17 +10,23 @@ h1{
   font-weight: bold;
 }
 
-#main-header img{
-   background-image: url(C:\broadway\resources\identify.svg);
-   image-orientation: 0;
-   image-resolution: from-image;
-
-
+.image{
+   background-image: url(C:\broadway\resources\the-flatiron-building.png);
+   background-size: cover;
+   background-position: center;
+   height: 300;
 }
 
 h2{
   font-size: 32px;
   font-weight: bold;
+}
+
+.designed{
+  background-image: image(C:\broadway\resources\the-flatiron-building.png);
+  background-position: center;
+  background-size: contain;
+  height: 50;
 }
 
 h3{
@@ -41,5 +48,8 @@ p{
 .logo{
   font-size: 11px;
   color: white;
+  background-color: dimgray;
+}
+footer{
   background-color: dimgray;
 }
